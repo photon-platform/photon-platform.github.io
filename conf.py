@@ -358,6 +358,7 @@ html_theme_options = {
     'logo': 'logo.png',
     'logo_name': True,
     'github_user': 'photon-platform',
+    'github_repo': '.photon'
     'github_button': True,
 }
 
