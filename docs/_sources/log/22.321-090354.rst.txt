@@ -1,0 +1,8 @@
+add excerpt to createnotes app
+==============================
+
+.. post:: 22.321-090354
+   :tags: ablog, textual
+   :category: 
+
+allows for a quicker start

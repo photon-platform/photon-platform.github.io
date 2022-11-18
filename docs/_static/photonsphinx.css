@@ -1,16 +1,16 @@
 @import url("basic.css");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* -- page layout ----------------------------------------------------------- */
 
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 17px;
-    background-color: black;
-    color: white;
+    background-color: #080808;
+    color: #CCC;
     margin: 0;
     padding: 0;
 }
-
 
 div.document {
     width: 940px;
@@ -33,12 +33,12 @@ div.sphinxsidebar {
 }
 
 hr {
-    border: 1px solid #B1B4B6;
+    border: 1px solid #999;
 }
 
 div.body {
-    background-color: black;
-    color: #3E4349;
+    background-color: #080808;
+    color: ;
     padding: 0 30px 0 30px;
 }
 
@@ -50,12 +50,12 @@ div.footer {
     width: 940px;
     margin: 20px auto 30px auto;
     font-size: 14px;
-    color: #888;
+    color: #444;
     text-align: right;
 }
 
 div.footer a {
-    color: #888;
+    color: #444;
 }
 
 p.caption {
@@ -70,13 +70,13 @@ div.relations {
 
 
 div.sphinxsidebar a {
-    color: #444;
+    color: #C90;
     text-decoration: none;
-    border-bottom: 1px dotted #999;
+    border-bottom: 1px dotted #FC0;
 }
 
 div.sphinxsidebar a:hover {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #FC0;
 }
 
 div.sphinxsidebarwrapper {
@@ -120,7 +120,7 @@ div.sphinxsidebar h4 {
 }
 
 div.sphinxsidebar h3 a {
-    color: #444;
+    color: #C90;
 }
 
 div.sphinxsidebar p.logo a,
@@ -138,7 +138,7 @@ div.sphinxsidebar p {
 div.sphinxsidebar ul {
     margin: 10px 0;
     padding: 0;
-    color: #000;
+    color: #CCC;
 }
 
 div.sphinxsidebar ul li.toctree-l1 > a {
@@ -182,12 +182,12 @@ div.sphinxsidebar h3.donation {
 /* -- body styles ----------------------------------------------------------- */
 
 a {
-    color: #004B6B;
+    color: #C90;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #6D4100;
+    color: #FC0;
     text-decoration: underline;
 }
 
@@ -211,14 +211,14 @@ div.body h5 { font-size: 100%; }
 div.body h6 { font-size: 100%; }
 
 a.headerlink {
-    color: #DDD;
+    color: #444;
     padding: 0 4px;
     text-decoration: none;
 }
 
 a.headerlink:hover {
-    color: #444;
-    background: #EAEAEA;
+    color: #FC0;
+    background: ;
 }
 
 div.body p, div.body dd, div.body li {
@@ -251,11 +251,11 @@ div.admonition p.last {
 }
 
 div.highlight {
-    background-color: black;
+    background-color: #080808;
 }
 
 dt:target, .highlight {
-    background: #FAF3E8;
+    background: #000;
 }
 
 div.warning {
@@ -295,8 +295,8 @@ div.important {
 }
 
 div.note {
-    background-color: #EEE;
-    border: 1px solid #CCC;
+    background-color: #301;
+    border: 1px solid #101;
 }
 
 div.tip {
@@ -315,7 +315,17 @@ div.seealso {
 }
 
 div.topic {
-    background-color: #EEE;
+    background-color: #000;
+    float: right;
+    margin-left: 1em;
+    padding: .5em;
+    border: none;
+    font-size: .8em;
+}
+
+p.topic-title {
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 p.admonition-title {
@@ -455,8 +465,8 @@ dl pre, blockquote pre, li pre {
 }
 
 tt, code {
-    background-color: #ecf0f3;
-    color: #222;
+    background-color: #000;
+    color: #CCC;
     /* padding: 1px 2px; */
 }
 
@@ -467,7 +477,7 @@ tt.xref, code.xref, a tt {
 
 a.reference {
     text-decoration: none;
-    border-bottom: 1px dotted #004B6B;
+    border-bottom: 1px dotted #C90;
 }
 
 /* Don't put an underline on images */
@@ -476,22 +486,22 @@ a.image-reference, a.image-reference:hover {
 }
 
 a.reference:hover {
-    border-bottom: 1px solid #6D4100;
+    border-bottom: 1px solid #FC0;
 }
 
 a.footnote-reference {
     text-decoration: none;
     font-size: 0.7em;
     vertical-align: top;
-    border-bottom: 1px dotted #004B6B;
+    border-bottom: 1px dotted #C90;
 }
 
 a.footnote-reference:hover {
-    border-bottom: 1px solid #6D4100;
+    border-bottom: 1px solid #FC0;
 }
 
 a:hover tt, a:hover code {
-    background: #EEE;
+    background: #CF0;
 }
 
 
@@ -564,7 +574,7 @@ a:hover tt, a:hover code {
 
     div.documentwrapper {
         float: none;
-        background: black;
+        background: #080808;
     }
 
     div.sphinxsidebar {
@@ -579,7 +589,7 @@ a:hover tt, a:hover code {
 
     div.sphinxsidebar h3, div.sphinxsidebar h4, div.sphinxsidebar p,
     div.sphinxsidebar h3 a {
-        color: black;
+        color: #080808;
     }
 
     div.sphinxsidebar a {
