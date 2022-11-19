@@ -1,56 +1,38 @@
 #!/usr/bin/env python
-
-#  import os
-#  import sys
+"""
+ABlog config
+https://ablog.readthedocs.io/en/latest/manual/ablog-configuration-options.html
+some defaults have changed in photon-ablog
+"""
 import ablog
 import photonsphinx
 
 # -- General ABlog Options ----------------------------------------------------
 
-blog_path = 'log'
+#  blog_path = 'log'
+#  ablog_website = 'docs'
+#  post_date_format = '%y.%j-%H%M%S'
+#  post_date_format_short = '%y.%j'
 blog_title = "PHOTON platform"
-
-# Base URL for the website, required for generating feeds.
-# e.g. blog_baseurl = "http://example.com/"
 blog_baseurl = ""
 
 #  html_base_url = 'https://phiarchitect.com'
 #  html_baseurl = 'phiarchitect.com'
 
-# Choose to archive only post titles. Archiving only titles can speed
-# up project building.
 # blog_archive_titles = False
 
-# -- Blog Authors, Languages, and Locations -----------------------------------
-
-# A dictionary of author names mapping to author full display names and
-# links. Dictionary keys are what should be used in ``post`` directive
-# to refer to the author.  Default is ``{}``.
 blog_authors = {
         "phi": ("phi ARCHITECT", 'https://phiarchitect.com'),
 }
 
-
-# A dictionary of language code names mapping to full display names and
-# links of these languages. Similar to :confval:`blog_authors`, dictionary
-# keys should be used in ``post`` directive to refer to the locations.
-# Default is ``{}``.
 # blog_languages = {
 #    'en': ('English', None),
 # }
 
-
-# A dictionary of location names mapping to full display names and
-# links of these locations. Similar to :confval:`blog_authors`, dictionary
-# keys should be used in ``post`` directive to refer to the locations.
-# Default is ``{}``.
 # blog_locations = {
 #    'Earth': ('The Blue Planet', 'https://en.wikipedia.org/wiki/Earth),
 # }
 
-# -- Blog Post Related --------------------------------------------------------
-
-# Format date for a post.
 # post_date_format = '%%b %%d, %%Y'
 
 # Number of paragraphs (default is ``1``) that will be displayed as an excerpt
@@ -362,6 +344,3 @@ html_theme_options = {
     'github_button': True,
 }
 
-ablog_website = 'docs'
-post_date_format = '%y.%j-%H%M%S'
-post_date_format_short = '%y.%j'
