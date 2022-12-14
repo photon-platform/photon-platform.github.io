@@ -295,8 +295,13 @@ div.important {
 }
 
 div.note {
+<<<<<<< HEAD:docs/_static/photonsphinx.css
     background-color: #110;
     border: 1px solid #000;
+=======
+    background-color: #301;
+    border: 1px solid #101;
+>>>>>>> 6891cb0835a1c2867f35fde90fc2d248adf50877:docs/_static/alabaster.css
 }
 
 div.tip {

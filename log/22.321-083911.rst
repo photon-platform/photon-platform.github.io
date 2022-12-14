@@ -1,0 +1,12 @@
+fully automated
+===============
+
+.. post:: 22.321-083911
+   :tags: 
+   :category: 
+
+here is the first paragraph
+
+.. warning::
+   look out
+   
