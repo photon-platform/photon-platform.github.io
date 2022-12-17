@@ -1,2 +1,7 @@
+__pycache__
+.doctrees
 tags
-build
+*.swp
+*.egg-info/
+*.egg-info
+*.py[cod]
