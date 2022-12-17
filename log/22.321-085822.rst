@@ -1,6 +1,0 @@
-ablog can function as a note taker
-==================================
-
-.. post:: 22.321-085822
-   :tags: ablog
-   :category: notes
