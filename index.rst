@@ -4,7 +4,7 @@ PHOTON platform
 gather • process • publish
 --------------------------
 
-The PHOTON platform represents the set of software configurations for 
+The PHOTON platform represents the set of software configurations for
 `phi ARCHITECT`_
 
 
@@ -19,8 +19,9 @@ recent logs
    :hidden:
    :maxdepth: 2
 
+   mission.rst
    projects/index.rst
-   
+
 
 .. Indices and tables
 .. ==================
