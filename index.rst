@@ -18,8 +18,9 @@ recent logs
 .. toctree::
    :hidden:
    :maxdepth: 2
-   :caption: Contents:
 
+   projects/index.rst
+   
 
 .. Indices and tables
 .. ==================
