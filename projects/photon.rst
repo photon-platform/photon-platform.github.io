@@ -1,2 +1,10 @@
 .photon
 -------
+
+Tools, dot files,  and configurations for the PHOTON platform.
+
+docs: `https://photon-platform.github.io/.photon`_
+source: `https://github.com/photon-platform/.photon`_ 
+
+.. _`https://photon-platform.github.io/.photon`: https://photon-platform.github.io/.photon
+.. _`https://github.com/photon-platform/.photon`: https://github.com/photon-platform/.photon
