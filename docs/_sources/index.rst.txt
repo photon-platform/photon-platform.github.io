@@ -8,19 +8,32 @@ The PHOTON platform represents the set of software configurations for
 `phi ARCHITECT`_
 
 
-recent logs
------------
+recent logs:
+------------
 
 .. postlist:: 5
    :excerpts:
 
 
-.. toctree::
-   :hidden:
-   :maxdepth: 2
+urgent todos:
+-------------
 
-   mission.rst
-   projects/index.rst
+.. postlist:: 
+   :category: TODO
+   :tags: urgent
+   :excerpts:
+
+
+contents:
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   MISSION <mission/index.rst>
+   PROJECTS <projects/index.rst>
+   LOG </log#http://>
+   ABOUT <about.rst>
 
 
 .. Indices and tables

@@ -739,3 +739,7 @@ pre {
 nav.contents {
   float: right;
 }
+
+code.xref {
+  background: #000;
+  }
