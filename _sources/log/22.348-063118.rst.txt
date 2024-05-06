@@ -1,0 +1,8 @@
+Welcome to the PHOTON platform
+==============================
+
+.. post::  22.348-063118
+   :tags: 
+   :category: STATUS
+
+this is the first log entry for photon-platform.github.io

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://photon-platform.github.io/photon-platform.github.io</id>
+  <title>photon-platform • photon-platform.github.io</title>
+  <updated>2024-05-06T15:50:53.170201+00:00</updated>
+  <link href="https://photon-platform.github.io/photon-platform.github.io"/>
+  <link href="https://photon-platform.github.io/photon-platform.github.io/log/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="unknown.dev">ABlog</generator>
+  <entry>
+    <id>https://photon-platform.github.io/photon-platform.github.io/log/22.348-063118/</id>
+    <title>Welcome to the PHOTON platform</title>
+    <updated>2022-12-14T06:31:18+00:00</updated>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;this is the first log entry for photon-platform.github.io&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://photon-platform.github.io/photon-platform.github.io/log/22.348-063118/"/>
+    <summary>this is the first log entry for photon-platform.github.io</summary>
+    <published>2022-12-14T06:31:18+00:00</published>
+  </entry>
+</feed>
