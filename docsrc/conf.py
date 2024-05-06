@@ -1,10 +1,12 @@
-from ablog.conf import *
+#  from ablog.conf import *
+from photon_platform.sphinxilator.global_conf import *
 
-org = 'photon-platform'
-org_name = 'PHOTON platform'
+version = ""
 
-repo = 'photon-platform.github.io'
-repo_name = 'photon-platform.github.io'
+org = "photon-platform"
+org_name = "photon-platform"
+
+repo = "photon-platform.github.io"
+repo_name = "photon-platform.github.io"
 
 setup_globals(org, org_name, repo, repo_name)
-

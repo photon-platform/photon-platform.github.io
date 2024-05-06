@@ -1,12 +1,7 @@
 PHOTON platform
 ===============
 
-gather • process • publish
---------------------------
-
-The PHOTON platform represents the set of software configurations for
-`phi ARCHITECT`_
-
+.. include:: intro.rst
 
 recent logs
 -----------
@@ -15,31 +10,27 @@ recent logs
    :excerpts:
 
 
-.. urgent todos
-.. ------------
-
-.. .. postlist:: 
-   .. :category: TODO
-   .. :tags: urgent
-   .. :excerpts:
-
-
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
+   :maxdepth: 2
 
    mission/index.rst
-   projects/index.rst
-   log </log#http://>
+   usage/index.rst
+   demos/index.rst
+   modules/index.rst
+   logs.rst
+   refs/index.rst
+   glossary.rst
+   connect.rst
+   todos.rst
+   changelog.rst
    about.rst
 
 
-.. Indices and tables
-.. ==================
+indices
+-------
 
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
-
-
-.. _`phi ARCHITECT`: https://phiarchitect.com
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
